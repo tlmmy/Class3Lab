@@ -41,7 +41,7 @@ public class WelcomeController extends HttpServlet {
                 = request.getRequestDispatcher("/welcomeResponse.jsp");
         view.forward(request, response);
     }
-}
+
 
 // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**

@@ -17,5 +17,7 @@
         <a href="pager">Lab 2</a>
         <h3>Lab 3 Link</h3>
         <a href="PageGenerator2.jsp">Lab 3</a>
+        <h3>Lab 4 Link</h3>
+        <a href="welcome.html">Lab 4</a>
     </body>
 </html>

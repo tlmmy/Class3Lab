@@ -12,7 +12,7 @@
         <title>Welcome Response</title>
     </head>
     <body>
-        <h1>Hello Response</h1>
+        <h1>Welcome Response</h1>
         <%
             Object obj = request.getAttribute("message");
             String msg = "Unknown";
@@ -20,9 +20,9 @@
                 msg = obj.toString();
             }
             out.println("<p>" + msg + "</p>");
-            out.println("<a href='index.jsp'>Home</a>");
-            out.println("</body>");
-            out.println("</html>");
-        %>
+           
+          %>
+          
+          <a href='index.jsp'>Home</a>
     </body>
 </html>
