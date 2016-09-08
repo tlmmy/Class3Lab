@@ -42,7 +42,7 @@ private static final String DESTINATION_VIEW = "/welcomeResponse.jsp";
         request.setAttribute("message", responseMsg);
 
         RequestDispatcher view
-                = request.getRequestDispatcher("/welcomeResponse.jsp");
+                = request.getRequestDispatcher(DESTINATION_VIEW);
         view.forward(request, response);
     }
     
