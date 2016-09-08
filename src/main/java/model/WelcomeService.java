@@ -13,6 +13,8 @@ import java.util.Calendar;
  */
 public class WelcomeService {
     private Calendar date;
+    private int morningTime = 11;
+    private int afternoonTime = 4;
 
     public WelcomeService() {
         date = Calendar.getInstance();
@@ -21,8 +23,8 @@ public class WelcomeService {
     public String checkTimePeriod(){
         Calendar morning = Calendar.getInstance();
         Calendar afternoon = Calendar.getInstance();
-        morning.set(Calendar.HOUR, 11);
-        afternoon.set(Calendar.HOUR, 4);
+        morning.set(Calendar.HOUR, morningTime);
+        afternoon.set(Calendar.HOUR, afternoonTime);
                 
         if (date.before(morning)){
             return "morning";}
